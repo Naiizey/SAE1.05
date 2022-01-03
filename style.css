@@ -1,3 +1,7 @@
 body{
     font-family: 'Clear Sans Regular',Sans-serif;
 }
+
+#Accueil, #Professionels, #Particuliers, #Valeurs, #Contact{
+    display : inline-block;   
+}
