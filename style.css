@@ -32,4 +32,5 @@ nav{
 
 #Accueil:hover, #Professionels:hover, #Particuliers:hover, #Valeurs:hover, #Contact:hover{
     background-color : #A6BDF5;
+    display : hidden;
 }
