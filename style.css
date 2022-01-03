@@ -5,7 +5,6 @@ body{
 }
 
 header{
-    text-align : center;
     background-color : #95E5F5;
     color : white;
     top : 0;
@@ -18,7 +17,7 @@ nav{
 
 #logo{
     display : inline-block;
-    left : 2em;
+    left : 1em;
     top : .5em;
 }
 
@@ -32,5 +31,4 @@ nav{
 
 #Accueil:hover, #Professionels:hover, #Particuliers:hover, #Valeurs:hover, #Contact:hover{
     background-color : #A6BDF5;
-    visibility : hidden;
 }
