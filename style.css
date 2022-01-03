@@ -13,15 +13,21 @@ header{
 
 nav{
     display : inline-block;
+    max-width: 75%;
 }
 
 #logo{
+    display : inline-block;
     left : 2em;
     top : .5em;
 }
 
 #Accueil, #Professionels, #Particuliers, #Valeurs, #Contact{
     display : inline-block;
+    padding-right : auto;
+    padding-left : auto;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 #Accueil:hover, #Professionels:hover, #Particuliers:hover, #Valeurs:hover, #Contact:hover{
