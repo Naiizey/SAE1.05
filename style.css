@@ -7,6 +7,9 @@ header{
     text-align : center;
     background-color : #95E5F5;
     color : white;
+    top : 0;
+    right : 0;
+    left : 0;
 }
 
 #Accueil, #Professionels, #Particuliers, #Valeurs, #Contact{
