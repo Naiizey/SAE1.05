@@ -17,16 +17,14 @@ nav{
 
 #logo{
     display : inline-block;
-    left : 1em;
+    margin-left : 1em;
     top : .5em;
 }
 
 #Accueil, #Professionels, #Particuliers, #Valeurs, #Contact{
     display : inline-block;
-    padding-right : auto;
-    padding-left : auto;
-    padding-top: auto;
-    padding-bottom: auto;
+    margin : auto;
+    text-align : center
 }
 
 #Accueil:hover, #Professionels:hover, #Particuliers:hover, #Valeurs:hover, #Contact:hover{
