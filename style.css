@@ -1,13 +1,14 @@
 body{
     font-family: 'Clear Sans Regular',Sans-serif;
     position : center;
+    margin : 0;
 }
 
 header{
     text-align : center;
     background-color : #95E5F5;
     color : white;
-    margin : 0;
+    top : 0;
 }
 
 #Accueil, #Professionels, #Particuliers, #Valeurs, #Contact{
