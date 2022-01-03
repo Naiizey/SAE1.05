@@ -11,6 +11,10 @@ header{
     top : 0;
 }
 
+nav{
+    display : inline-block;
+}
+
 #Accueil, #Professionels, #Particuliers, #Valeurs, #Contact{
     display : inline-block;
 }
