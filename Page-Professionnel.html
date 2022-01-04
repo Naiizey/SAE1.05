@@ -8,8 +8,10 @@
             main{
                 padding: 3em;
                 line-height: 0;
+                
             }
-            h1{
+        
+            h1,h2{
                 background-color: #9af5f5;
                 text-align: center;
                 
@@ -17,8 +19,11 @@
             figure{
                 display: inline-block;
                 height: 372px;
+                flex-shrink: 1;
                 width: min-content;
-                margin:1em 1em;     
+                margin:1em 1em;
+              
+ 
             }
             figcaption{
                 display: block;
@@ -41,6 +46,13 @@
                 
                 
             }
+            section{
+                display: flex;
+                
+                
+                justify-content: center;
+                min-height: min-content;
+            }
             
 
         </style>
@@ -52,22 +64,64 @@
 	<body>
         <main>
             <h1>Liste des produits</h1>
-            <figure>
-            <img src="PHOTOS/Coulis_caramel.jpg" alt="Coulis_caramel" width="372px" height="344px">
-            <figcaption>Coulis au caramel</figcaption>
-            </figure>
-            <figure>
-                <img src="PHOTOS/Coulis_Kiwi.jpg" alt="Coulis_kiwi" width="372px" height="344px">
-                <figcaption>Coulis au kiwi</figcaption>
-            </figure>
-            <figure>
-                <img src="PHOTOS/Fruits_framboises.jpg" alt="Fruits_framboises" width="372px" height="344px">
-                <figcaption>Framboises</figcaption>
-            </figure>
-            <figure>
-                <img src="PHOTOS/Fruits_myrtilles.jpg" alt="Fruits_myrtilles" width="372px" height="344px">
-                <figcaption>Myrtilles</figcaption>
-            </figure>
+            <h2>Nos glaces et coupes</h2>
+            <section>
+                <figure>
+                    <img src="PHOTOS/Glace_Italienne1.jpg" alt="Glace_Italienne1" width="372px" height="344px">
+                    <figcaption>Glace Italienne</figcaption>
+                </figure>
+                <figure>
+                    <img src="PHOTOS/Bac_glace2.jpg" alt="Bac_glace2" width="372px" height="344px">
+                   
+                    <figcaption>Bac de glace </figcaption>
+                </figure>
+                <figure>
+                    <img src="PHOTOS/Coupe_individuelle_1.jpg" alt="Coupe_individuelle_1" width="372px" height="344px">
+                    <figcaption>Coupe individuelle</figcaption>
+                </figure>
+
+            </section>
+            <h2>Nos Patisseries</h2>
+            <section>
+                <figure>
+                    <img src="PHOTOS/Vacherin_4.jpg" alt="Vacherin" width="372px" height="344px">
+                    <figcaption>Vacherin</figcaption>
+                </figure>
+                <figure>
+                    <img src="PHOTOS/Buche_2.jpg" alt="Buche_2" width="372px" height="344px">
+                    <figcaption>Buche</figcaption>
+                </figure>
+            </section>
+            <h2>Nos coulis</h2>
+            <section>
+                    <figure>
+                    <img src="PHOTOS/Coulis_caramel.jpg" alt="Coulis_caramel" width="372px" height="344px">
+                    <figcaption>Coulis au caramel</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="PHOTOS/Coulis_Kiwi.jpg" alt="Coulis_kiwi" width="372px" height="344px">
+                        <figcaption>Coulis au kiwi</figcaption>
+                    </figure>
+                    
+            </section>
+            <h2>Nos fruits</h2>
+            <section>
+                <figure>
+                    <img src="PHOTOS/Fruits_framboises.jpg" alt="Fruits_framboises" width="372px" height="344px">
+                    <figcaption>Framboises</figcaption>
+                </figure>
+                <figure>
+                    <img src="PHOTOS/Fruits_myrtilles.jpg" alt="Fruits_myrtilles" width="372px" height="344px">
+                    <figcaption>Myrtilles</figcaption>
+                </figure>
+            </section>
+            
+           
+            
+            
+            
+            
+
         </main>
        
     
