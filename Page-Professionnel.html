@@ -5,23 +5,43 @@
 		<title>Koh'Frais</title>
 		<link rel="icon" type="image/png" sizes="16x16" href="icoglaceblanc.png">
         <style>
-            body img{
-                
-                
-                
-                color: black;
-                background-color: rgba(255,255,255,0.7 );    
-                font-size: small;
-                
-                top:-75px;
-                padding: 2rem 0;
+            main{
+                padding: 3em;
+                line-height: 0;
+            }
+            h1{
+                background-color: #9af5f5;
                 text-align: center;
-                max-width: 200px;
-
+                
             }
-            body div:hover{
-                visibility: collapse ;
+            figure{
+                display: inline-block;
+                height: 372px;
+                width: min-content;
+                margin:1em 1em;     
             }
+            figcaption{
+                display: block;
+                position: relative;
+                visibility: hidden;
+                background-color: rgba(245,191,179,0.7);    
+                
+                color: white;
+                top:-345px;
+                padding: 173px 0;
+                text-align: center;
+                max-width: 372px;
+               
+            }
+            
+            figure:hover figcaption{
+                
+                
+                visibility:visible;
+                
+                
+            }
+            
 
         </style>
 	</head>
@@ -30,10 +50,26 @@
 		
 	</header>
 	<body>
-        <h1>Liste des produits</h1>
-        <img src="PHOTOS/Coulis_caramel.jpg" alt="Coulis_caramel" width="124px" height="115px">
-        
-        <div>Coulis au caramel</div>
+        <main>
+            <h1>Liste des produits</h1>
+            <figure>
+            <img src="PHOTOS/Coulis_caramel.jpg" alt="Coulis_caramel" width="372px" height="344px">
+            <figcaption>Coulis au caramel</figcaption>
+            </figure>
+            <figure>
+                <img src="PHOTOS/Coulis_Kiwi.jpg" alt="Coulis_kiwi" width="372px" height="344px">
+                <figcaption>Coulis au kiwi</figcaption>
+            </figure>
+            <figure>
+                <img src="PHOTOS/Fruits_framboises.jpg" alt="Fruits_framboises" width="372px" height="344px">
+                <figcaption>Framboises</figcaption>
+            </figure>
+            <figure>
+                <img src="PHOTOS/Fruits_myrtilles.jpg" alt="Fruits_myrtilles" width="372px" height="344px">
+                <figcaption>Myrtilles</figcaption>
+            </figure>
+        </main>
+       
     
 
 	</body>
