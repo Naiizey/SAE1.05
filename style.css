@@ -32,9 +32,10 @@ nav{
     margin: auto;
     text-align: center;
     height: 100%;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    margin-left: 20em;
+    padding: 2em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    margin-left: 10em;
 }
 
 .Accueil:hover, .Professionels:hover, .Particuliers:hover, .Valeurs:hover, .Contact:hover{
