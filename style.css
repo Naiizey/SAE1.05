@@ -15,7 +15,9 @@ header{
 nav{
     text-align: center;
     display : inline-flex;
-    width: 60%;
+    margin-left: 3em;
+    width: 75%;
+    height : 100;
     background-size: cover;
 }
 
