@@ -1,5 +1,5 @@
 body{
-    font-family: 'Chunk Rethunk','Clear Sans Regular',Sans-serif;
+    font-family: 'Clear Sans Regular',Sans-serif;
     position: center;
     margin: 0;
     background-color: #FFEDD0;
@@ -8,5 +8,4 @@ body{
 @font-face{
     font-family: "Chunk Rethunk";
     src: url("./chunk-rethunk.ttf");
-
 }
