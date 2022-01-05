@@ -35,6 +35,11 @@ nav{
     padding-left: 2.5em;
     padding-right: 2.5em;
     margin-left: 6em;
+    text-decoration: none;
+}
+
+.Accueil, .Professionels, .Particuliers{
+    padding-top: .2em;
 }
 
 .Accueil:hover, .Professionels:hover, .Particuliers:hover, .Valeurs:hover, .Contact:hover{
