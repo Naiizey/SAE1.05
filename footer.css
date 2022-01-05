@@ -1,4 +1,15 @@
 footer{
     color: white;
     background-color: #95E5D5;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+}
+
+.contact2, .webmaster, .réseaux{
+    display: inline-flex;
+}
+
+.contact2, .webmaster{
+    border-left : 1px solid white;
 }
