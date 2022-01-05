@@ -9,8 +9,8 @@ footer{
 
 .contact2, .webmaster, .réseaux{
     display: inline-flex;
+    justify-content: center;
     margin: auto;
-    padding-right: 2em;
 }
 
 .contact2, .webmaster{
