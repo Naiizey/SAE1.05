@@ -7,27 +7,30 @@ body{
 header{
     background-color : #95E5F5;
     color : white;
+    display : flex;
+    align-items : center;
     top : 0;
 }
 
 nav{
     text-align: center;
     display : inline-block;
-    max-width: 75%;
+    width: 75%;
+    background-size: cover;
 }
 
-#logo{
+.logo{
     display : inline-block;
     margin-left : 1em;
-    margin-top : auto;
+    margin-top : .5em;
 }
 
-#Accueil, #Professionels, #Particuliers, #Valeurs, #Contact{
+.Accueil, .Professionels, .Particuliers, .Valeurs, .Contact{
     display : inline-block;
     margin : auto;
     text-align : center;
 }
 
-#Accueil:hover, #Professionels:hover, #Particuliers:hover, #Valeurs:hover, #Contact:hover{
+.Accueil:hover, .Professionels:hover, .Particuliers:hover, .Valeurs:hover, .Contact:hover{
     background-color : #A6BDF5;
 }
