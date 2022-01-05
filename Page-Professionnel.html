@@ -16,7 +16,7 @@
                 height: 372px;
             }
         
-            div{
+            main > div{
                 
                 background-color:#9AF5F5;
                 color:white;
@@ -25,6 +25,22 @@
                 margin:1em;
                 border-radius: 2em;
             }
+            figure > div{
+                height:344px;
+                width:372px;
+                
+                background-position: center;
+            }
+            #vacherin{
+                background-image: url(PHOTOS/Vacherin_4.jpg);
+  
+            }
+            #coupeInd {
+                background-image: url(PHOTOS/Coupe_individuelle_1.jpg);
+               
+            
+            }
+           
             figure{
                 display: inline-block;
                 height: 372px;
@@ -38,7 +54,7 @@
                 display: block;
                 position: relative;
                 visibility: hidden;
-                background-color: rgba(245,191,179,0.7);    
+                    
                 
                 color: white;
                 top:-345px;
@@ -53,6 +69,9 @@
                 
                 
                 visibility:visible;
+                background-color: rgba(245,191,179,0.7);
+                transition: all 0.5s;
+               
                 
                 
             }
@@ -101,13 +120,14 @@
             <section>
                 <a>
                 <figure>
-                    <img src="PHOTOS/Vacherin_4.jpg" alt="Vacherin" width="372px" height="344px">
+                    
+                    <div id="vacherin"></div>
                     <figcaption>Vacherin</figcaption>
                 </figure>
                 </a>
                 <a>
                 <figure>
-                    <img src="PHOTOS/Buche_2.jpg" alt="Buche_2" width="372px" height="344px">
+                    <img src="PHOTOS/Buche_2.jpg" alt="Coupe_individuelle_1" width="372px" height="344px">
                     <figcaption>Buche</figcaption>
                 </figure>
                 </a>
