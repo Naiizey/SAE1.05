@@ -10,6 +10,7 @@ footer{
 .contact2, .webmaster, .réseaux{
     display: inline-flex;
     margin: auto;
+    padding: auto;
 }
 
 .contact2, .webmaster{
