@@ -14,7 +14,7 @@ header{
 
 nav{
     text-align: center;
-    display : inline-block;
+    display : inline-flex;
     width: 75%;
     background-size: cover;
 }
@@ -26,7 +26,7 @@ nav{
 }
 
 .Accueil, .Professionels, .Particuliers, .Valeurs, .Contact{
-    display : inline-block;
+    display : inline-flex;
     margin : auto;
     text-align : center;
 }
