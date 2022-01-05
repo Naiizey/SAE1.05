@@ -13,5 +13,13 @@ footer{
 }
 
 .contact2, .webmaster{
-    border-right : 1em solid white;
+    border-right: .25em solid white;
+}
+
+.webmaster{
+    left: 0;
+}
+
+.réseaux{
+    right:  0;
 }
