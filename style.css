@@ -38,7 +38,7 @@ nav{
     text-decoration: none;
 }
 
-.Accueil, .Professionels, .Particuliers{
+.Accueil p, .Professionels p, .Particuliers p{
     padding-top: .2em;
 }
 
