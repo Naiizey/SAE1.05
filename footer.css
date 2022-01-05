@@ -11,7 +11,7 @@ footer{
     display: inline-flex;
     align-items: center;
     text-align: center;
-    margin: auto;
+    padding: auto;
 }
 
 .contact2, .webmaster{
