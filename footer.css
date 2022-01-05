@@ -3,7 +3,6 @@ footer{
     background-color: #95E5D5;
     display: flex;
     align-items: center;
-    justify-content: center;
     bottom: 0;
     font-family: 'Chunk Rethunk';
 }
@@ -14,12 +13,5 @@ footer{
 
 .contact2, .webmaster{
     border-right: .25em solid white;
-}
-
-.webmaster{
-    left: 0;
-}
-
-.réseaux{
-    right:  0;
+    margin-right: 33%;
 }
