@@ -15,7 +15,7 @@ header{
 nav{
     text-align: center;
     display : inline-flex;
-    width: 75%;
+    width: 60%;
     background-size: cover;
 }
 
@@ -29,6 +29,7 @@ nav{
     display : inline-flex;
     margin : auto;
     text-align : center;
+    height : 100%;
 }
 
 .Accueil:hover, .Professionels:hover, .Particuliers:hover, .Valeurs:hover, .Contact:hover{
