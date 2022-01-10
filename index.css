@@ -4,5 +4,11 @@ main div{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #95EFD5;
+    background-color: #95E5F5;
+    color: black;
+}
+
+main{
+    display: inline-flex;
+    align-items: center;
 }
