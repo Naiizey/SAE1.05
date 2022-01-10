@@ -4,8 +4,9 @@ main{
 }
 
 main div{
-    border-radius: 2px;
-    margin: 80%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
     display: inline-flex;
     align-items: center;
     justify-content: center;
