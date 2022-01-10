@@ -1,0 +1,8 @@
+main div{
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #95E5D5;
+}
