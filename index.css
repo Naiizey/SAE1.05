@@ -52,3 +52,8 @@ main{
 .carousel-item figure:hover div {
 	visibility: visible;
 }
+
+a{
+    text-decoration: none;
+    color: white; 
+}
