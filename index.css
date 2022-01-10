@@ -1,14 +1,15 @@
+main{
+    display: flex;
+    align-items: center;
+}
+
 main div{
-    margin: auto;
+    margin: 25%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     background-color: #95E5F5;
-    color: black;
-}
-
-main{
-    display: flex;
-    align-items: center;
+    color: white;
+    font-family: 'Chunk Rethunk';
 }
