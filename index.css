@@ -4,7 +4,8 @@ main{
 }
 
 main div{
-    margin: 25%;
+    border-radius: 2px;
+    margin: 80%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
