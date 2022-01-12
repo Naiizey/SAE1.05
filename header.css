@@ -16,11 +16,6 @@ nav{
     background-size: cover;
 }
 
-a:link{
-    text-decoration: none;
-    color: white; 
-}
-
 .logo{
     display: inline-block;
     margin-left: 1em;
