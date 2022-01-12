@@ -8,6 +8,8 @@ main{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    width: 15em;
+    height: 5em;
     text-align: center;
     text-decoration: none;
     color: white;
