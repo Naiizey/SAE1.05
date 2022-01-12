@@ -55,3 +55,9 @@ main{
 .carousel-item figure:hover div {
 	visibility: visible;
 }
+
+.container-fluid{
+    margin: auto;
+    border-left: 23em dotted;
+    border-right: 23em dotted;
+}
