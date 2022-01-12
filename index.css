@@ -5,12 +5,14 @@ main{
 
 .particulier_button, .pro_button{
     border-radius: 10px;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    background-color: #95E5F5;
-    font-family: 'Chunk Rethunk';
     text-decoration: none;
+    color: white;
+    font-family: 'Chunk Rethunk';
+    background-color: #95E5F5;
 }
 
 .particulier_button:hover, .pro_button:hover{
@@ -53,8 +55,6 @@ main{
 
 .carousel-item figure:hover div {
 	visibility: visible;
-}
-
 }
 
 .container-fluid{
