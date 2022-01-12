@@ -38,6 +38,8 @@ nav{
 
 .Accueil:hover, .Professionels:hover, .Particuliers:hover, .Valeurs:hover, .Contact1:hover{
     background-color: #A6BDF5;
+    text-decoration: none;
+    color: white;
 }
 
 .Accueil{

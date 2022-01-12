@@ -7,13 +7,16 @@ main{
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     background-color: #95E5F5;
     color: white;
     font-family: 'Chunk Rethunk';
+    text-decoration: none;
+}
+
+.particulier_button:hover, .pro_button:hover{
+    text-decoration: none;
+    color: white;
 }
 
 #myCarousel {
@@ -51,14 +54,4 @@ main{
 
 .carousel-item figure:hover div {
 	visibility: visible;
-}
-
-a:link{
-    text-decoration: none;
-    color: white; 
-}
-
-a:hover{
-    text-decoration: none;
-    color : white;
 }
