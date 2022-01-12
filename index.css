@@ -9,7 +9,6 @@ main{
     margin-right: auto;
     text-align: center;
     background-color: #95E5F5;
-    color: white;
     font-family: 'Chunk Rethunk';
     text-decoration: none;
 }
@@ -54,10 +53,4 @@ main{
 
 .carousel-item figure:hover div {
 	visibility: visible;
-}
-
-.container-fluid{
-    margin: auto;
-    border-left: 23em dotted;
-    border-right: 23em dotted;
 }
