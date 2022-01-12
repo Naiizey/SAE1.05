@@ -1,7 +1,7 @@
 header{
     background-color: #95E5F5;
     color: white;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     top: 0;
     font-family: 'Chunk Rethunk';
@@ -16,7 +16,7 @@ nav{
     background-size: cover;
 }
 
-a{
+a:link{
     text-decoration: none;
     color: white; 
 }
