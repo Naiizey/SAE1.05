@@ -1,0 +1,125 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Koh'Frais</title>
+		<link rel="icon" type="image/png" sizes="16x16" href="icoglaceblanc.png">
+        <link rel="stylesheet" type="text/css" href="main-style.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <style>
+            
+                
+            
+            main{
+                text-align: center;
+                margin: 0em 10em;
+                padding :0em 10%;
+                background-color: #FFEDD0;
+                color:#A6BDF5;
+                
+            }
+            h1{
+                
+                border-bottom: solid 0.2em #f5bfb3;
+                width:fit-content;
+                color:#A6BDF5;
+            }
+            h2{
+              color:#A6BDF5;  
+            }
+            main>figure{
+                display: inline-block;
+                margin:0;
+                padding:0;
+                width:75%;
+            }
+            img{
+                
+                width:100%;
+            }
+            section{
+                text-align: left;
+            }
+            section+section{
+                display:flex;
+                flex-wrap: wrap;
+                
+            }
+            article{
+                font-family: 'Clear Sans Regular',Sans-serif;
+            }
+            section+section article{
+                margin: 0 1em;
+                width:30%;
+                flex-grow: 2;
+                
+            }
+            section figure{
+                flex-basis: 25%;
+                flex-grow: 1;
+                margin:0;
+
+                
+            }
+            section img{
+                
+                margin-bottom: 10%;
+                margin-top: 5%;
+
+            }
+            @media screen and (max-width: 930px){
+                section+section article+article{
+                order:2;
+                
+            
+        }
+           
+                main{
+                    margin: 0 2em;
+                    padding:0;
+                }
+                section+section{
+                    flex-direction: column;
+                }
+            
+                section figure{
+                    flex-basis: 5%;
+                    padding-left:50% ;
+                    flex-grow: unset;
+                    margin:0;
+
+                    
+                }
+                section+section article{
+                width:100%
+                
+            }
+            }
+
+        </style>
+    </head>
+    <main>
+    <h1>Nom produit</h1>
+    <figure>
+        <img src="PHOTOS/Bac_glace2.jpg" >
+    </figure>
+    <section>
+    <h2>Description du produit: </h2>
+    <article>Id Quis reprehenderit est illo <mark>repellat</mark> ut iusto doloremque sed sapiente quia qui distinctio veniam et ratione nihil ab voluptatem corporis! Sed accusantium numquam hic numquam laborum sit veritatis tempore aut recusandae ratione ut perspiciatis voluptas. Et exercitationem commodi qui sapiente quod ut dignissimos repudiandae vel quisquam nemo. </article>
+    </section>
+    <section>
+    
+    <article>
+        <h2>Composition</h2>
+    </article>
+    <article>
+        <h2>Quantites</h2>
+        Lorem ipsum dolor sit amet. Et exercitationem possimus et incidunt rerum cum quae repellat? Et nisi tempore sit quas earum ut vero accusamus aut quia quos 33 repellendus dolores non omnis nostrum At corrupti dicta. 
+    </article>
+    <figure>
+        <img src="Logo/CertifBio.png">
+    </figure>
+    </section>
+    </main>
+
+</html>
