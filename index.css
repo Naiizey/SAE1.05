@@ -13,11 +13,9 @@ main{
 .particulier_button, .pro_button{
     border-radius: 10px;
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
     width: 15em;
     height: 5em;
-    text-align: center;
+    text-align: centerS;
     text-decoration: none;
     color: white;
     font-family: 'Chunk Rethunk';
