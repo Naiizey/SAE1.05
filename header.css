@@ -1,7 +1,7 @@
 header{
     background-color: #95E5F5;
     color: white;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     top: 0;
     font-family: 'Chunk Rethunk';
