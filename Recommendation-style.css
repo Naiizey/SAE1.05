@@ -1,0 +1,70 @@
+
+main a{
+    text-decoration: none;
+    height: 372px;
+}
+
+
+figure > div{
+    height:344px;
+    width:372px;
+    
+    background-position: center;
+}
+#vacherin{
+    background-image: url(PHOTOS/Vacherin_4.jpg);
+
+}
+.recommendation img{
+    margin: 0;
+}
+
+.recommendation figure{
+    display: inline-block;
+    width: 372px;
+    height:344px;
+    flex-shrink: 1;
+
+    margin:1em 1em;
+    padding: 0;
+  
+
+}
+.recommendation figcaption{
+    display: block;
+    position: relative;
+    visibility: hidden;
+        
+    
+    color: white;
+    top:-354px;
+    padding: 145px 0;
+    text-align: center;
+    font-size:xx-large;
+    max-width: 372px;
+
+   
+}
+
+.recommendation figure:hover figcaption{
+    
+    
+    visibility:visible;
+    background-color: rgba(245,191,179,0.7);
+    transition: all 0.5s;
+   
+    
+    
+}
+h2{
+    text-align: left;
+    
+
+}
+.recommendation{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: start;
+    min-height: min-content;
+}
