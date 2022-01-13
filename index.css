@@ -13,7 +13,6 @@ main{
 
 .particulier_button, .pro_button{
     border-radius: 10px;
-    display: inline-block;
     width: 15em;
     height: 5em;
     text-align: center;
