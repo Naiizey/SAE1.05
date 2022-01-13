@@ -4,6 +4,7 @@ main{
 }
 
 .button{
+    display: block;
     padding-left: auto;
     padding-right: auto;
     text-align: center;
@@ -15,7 +16,7 @@ main{
     display: inline-block;
     width: 15em;
     height: 5em;
-    text-align: centerS;
+    text-align: center;
     text-decoration: none;
     color: white;
     font-family: 'Chunk Rethunk';
