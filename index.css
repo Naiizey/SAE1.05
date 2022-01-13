@@ -67,6 +67,7 @@ main{
 
 .container-fluid{
     margin: auto;
+    width: 100%;
     border-left: 23em dotted;
     border-right: 23em dotted;
 }
