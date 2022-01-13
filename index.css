@@ -4,11 +4,11 @@ main{
 }
 
 .button{
-    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: auto;
     padding-right: auto;
     text-align: center;
-    width: 100%;
 }
 
 .particulier_button, .pro_button{
@@ -67,7 +67,6 @@ main{
 
 .container-fluid{
     margin: auto;
-    width: 100%;
     border-left: 23em dotted;
     border-right: 23em dotted;
 }
