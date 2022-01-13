@@ -64,6 +64,15 @@
                
             }
             
+            
+            section{
+                display: flex;
+                flex-wrap: wrap;
+                
+                justify-content: center;
+                min-height: min-content;
+            }
+            @media screen and (min-width: 900px){
             figure:hover figcaption{
                 
                 
@@ -74,13 +83,33 @@
                 
                 
             }
-            section{
-                display: flex;
-                flex-wrap: wrap;
-                
-                justify-content: center;
-                min-height: min-content;
             }
+            @media screen and (max-width: 900px){
+                figcaption{
+                
+                visibility: visible;
+                background-color: rgba(245,191,179,0.7);
+                
+                
+                top:-4em;
+                padding: 2em 0;
+               
+                
+               
+            }
+            main > div{
+                
+                
+                text-align: center;
+                padding: 0.2em;
+                margin:0;
+                width:auto;
+                border-radius: 2em;
+                line-height: 1.5em;
+            }
+            }
+                
+            
             
 
         </style>
