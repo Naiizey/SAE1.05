@@ -28,7 +28,6 @@ nav{
     margin: auto;
     text-align: center;
     height: 100%;
-    padding: auto;
     padding-left: 2.5em;
     padding-right: 2.5em;
     margin-left: 6em;
@@ -37,7 +36,8 @@ nav{
 }
 
 .Accueil p, .Professionels p, .Particuliers p{
-    padding-top: .2em;
+    padding-top: auto;
+    padding-bottom: auto;
 }
 
 .Accueil:hover, .Professionels:hover, .Particuliers:hover, .Valeurs:hover, .Contact1:hover{
