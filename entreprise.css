@@ -1,0 +1,48 @@
+main{
+    text-align: right;
+    margin:0;       
+    padding-left :10%;
+    padding-right: 10%;
+    padding-bottom: 5em;
+    background-color: #FFEDD0;
+    color:#A6BDF5;
+    
+
+}
+h1{
+    display: inline-block;
+    border-bottom: solid 0.2em #f5bfb3;
+    width:fit-content;
+    color:#A6BDF5;
+}
+img{
+    width:55%;
+    float: left;
+    margin: 0.5em;
+}
+
+article+article+article{
+    clear: left;
+}
+@media screen and (max-width:830px){
+    main{
+        text-align: center;
+    }
+    img{
+        width:55%;
+        display: inline-block;
+        float: none;
+        margin: 0.5em;
+    }
+    article{
+        display: inline-block;
+    }
+
+    article{
+        clear: none;
+        
+        margin: 0 10%;
+
+    }
+    
+}
