@@ -5,6 +5,7 @@ header{
     align-items: center;
     top: 0;
     font-family: 'Chunk Rethunk';
+    height: 2.5em;
 }
 
 nav{
@@ -12,7 +13,7 @@ nav{
     display: inline-flex;
     margin-left: 3em;
     width: 75%;
-    height: 100;
+    height: 100%;
     background-size: cover;
 }
 
