@@ -1,0 +1,105 @@
+
+h1,h2,figcaption{
+    font-family: "Chunk Rethunk";
+}
+main{
+    padding: 3em;
+    line-height: 0;
+    background-color: #FFEDD0;
+    
+}
+main a{
+    text-decoration: none;
+    height: 372px;
+}
+
+main > div{
+    
+    background-color:#9AF5F5;
+    color:white;
+    text-align: center;
+    padding: 0.5em;
+    margin:1em;
+    border-radius: 2em;
+}
+figure > div{
+    height:344px;
+    width:372px;
+    
+    background-position: center;
+}
+#vacherin{
+    background-image: url(PHOTOS/Vacherin_4.jpg);
+
+}
+
+
+
+figure{
+    display: inline-block;
+    height: 372px;
+    flex-shrink: 1;
+    width: min-content;
+    margin:1em 1em;
+  
+
+}
+figcaption{
+    display: block;
+    position: relative;
+    visibility: hidden;
+        
+    
+    color: white;
+    top:-345px;
+    padding: 173px 0;
+    text-align: center;
+    font-size:xx-large;
+    max-width: 372px;
+   
+}
+
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    min-height: min-content;
+}
+@media screen and (min-width: 900px){
+figure:hover figcaption{
+    
+    
+    visibility:visible;
+    background-color: rgba(245,191,179,0.7);
+    transition: all 0.5s;
+   
+    
+    
+}
+}
+@media screen and (max-width: 900px){
+    figcaption{
+    
+    visibility: visible;
+    background-color: rgba(245,191,179,0.7);
+    
+    
+    top:-4em;
+    padding: 2em 0;
+   
+    
+   
+}
+main > div{
+    
+    
+    text-align: center;
+    padding: 0.2em;
+    margin:0;
+    width:auto;
+    border-radius: 2em;
+    line-height: 1.5em;
+}
+}

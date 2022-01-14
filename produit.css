@@ -1,0 +1,173 @@
+html{
+    width:fit-content;
+    height: fit-content;
+}
+main{
+    text-align: center;
+    
+    padding :0em 10%;
+    background-color: #FFEDD0;
+    color:#A6BDF5;
+    
+}
+h1{
+    display: block;
+    border-bottom: solid 0.2em #f5bfb3;
+    width:fit-content;
+    color:#A6BDF5;
+    
+}
+h2{
+  color:#A6BDF5;  
+  font-family: "Chunk Rethunk";
+ 
+}
+main>figure{
+    display: inline-block;
+    margin:0;
+    padding:0;
+    width:75%;
+}
+main img{
+    
+    width:100%;
+}
+section{
+    text-align: left;
+}
+section+section{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+article{
+    font-family: 'Clear Sans Regular',Sans-serif;
+}
+section+section article{
+    margin: 0 1em;
+    width:30%;
+    flex-grow: 2;
+    
+}
+section figure{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin:0;
+
+    
+}
+section img{
+    
+    margin-bottom: 10%;
+    margin-top: 5%;
+
+}
+@media screen and (max-width: 930px){
+    section+section article+article{
+    order:2;
+    
+
+    }
+
+    main{
+     
+        margin: 0 0;
+       
+    }
+    section+section{
+        flex-direction: column;
+    }
+
+    section figure{
+        flex-basis: 5%;
+        padding-left:50% ;
+        flex-grow: unset;
+        margin:0;
+
+        
+    }
+    section+section article{
+    width:100%
+    
+}
+}
+
+main a{
+    text-decoration: none;
+    height: 372px;
+}
+
+
+figure > div{
+    height:344px;
+    width:372px;
+    
+    background-position: center;
+}
+#vacherin{
+    background-image: url(PHOTOS/Vacherin_4.jpg);
+
+}
+.recommendation img{
+    margin: 0;
+}
+
+.recommendation figure{
+    display: inline-block;
+    width: 372px;
+    height:344px;
+    flex-shrink: 1;
+
+    margin:2em;
+    padding: 0;
+  
+
+}
+.recommendation figcaption{
+    display: block;
+    position: relative;
+    visibility: hidden;
+        
+    
+    color: white;
+    top:-350px;
+    padding: 145px 0;
+    text-align: center;
+    font-size:xx-large;
+    max-width: 372px;
+
+   
+}
+
+.recommendation figure:hover figcaption{
+    
+    
+    visibility:visible;
+    background-color: rgba(245,191,179,0.7);
+    transition: all 0.5s;
+   
+    
+    
+}
+h2{
+    text-align: left;
+    
+
+}
+.recommendation{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: start;
+    min-height: min-content;
+}
+
+mark {
+    background-color: #F5BFB3;
+    color:#A6BDF5;
+    font-family: 'Clear Sans Regular',Sans-serif;
+    padding: 0 0.3em;
+}
+h1,h2,figcaption{
+    font-family: "Chunk Rethunk";
+}
