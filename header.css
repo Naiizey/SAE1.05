@@ -24,9 +24,11 @@ nav{
 }
 
 .Accueil, .Professionels, .Particuliers, .Valeurs, .Contact1{
-    display: inline-flex;
+    display: flex;
     margin: auto;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     height: 100%;
     padding-left: 2.5em;
     padding-right: 2.5em;
