@@ -31,6 +31,7 @@ nav{
     padding-right: 2.5em;
     margin-left: 6em;
     color: white;
+    text-decoration: none;
 }
 
 .Accueil p, .Professionels p, .Particuliers p{
