@@ -33,13 +33,11 @@ input[type=text], textarea, input[type=email] {
   }
   
   .container {
-    /* Ajouter box-sizing */
     box-sizing : border-box;
     border-radius:7px;
     background-color:#95E5F5;
     padding:20px;
     width: 100%;
-    /* redéfinition 400 + 2*20 */
     max-width: 100em;
     margin-top: 2em;
     margin-bottom: 2em;
@@ -48,3 +46,25 @@ input[type=text], textarea, input[type=email] {
 
   }
 
+  @media screen and (max-width:830px){
+    main{
+        text-align: center;
+    }
+    img{
+        width:55%;
+        display: inline-block;
+        float: none;
+        margin: 0.5em;
+    }
+    article{
+        display: inline-block;
+    }
+
+    article{
+        clear: none;
+        
+        margin: 0 10%;
+
+    }
+    
+}
