@@ -7,13 +7,32 @@ footer{
     font-family: 'Chunk Rethunk';
 }
 
-.contact2, .webmaster, .réseaux{
+.contact, .webmaster, .réseaux{
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 33%;
+    height: 96px;
 }
 
-.contact2, .webmaster{
+.contact, .webmaster{
     border-right: .25em solid white;
+}
+
+.a_contact{
+    text-decoration: none;
+    color: white;
+}
+
+.a_contact:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #A6BDF5;
+    padding: 1.5em
+}
+
+.names{
+    list-style: none;
+    padding-top: .5em;
+    padding-bottom: .5em;
 }
