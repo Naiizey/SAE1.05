@@ -1,26 +1,24 @@
-main{
+.buttons, .lecarousel{
     display: flex;
+    justify-content: center;
     align-items: center;
-}
-
-.button{
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: auto;
-    padding-right: auto;
-    text-align: center;
 }
 
 .particulier_button, .pro_button{
     border-radius: 10px;
-    width: 15em;
-    height: 5em;
-    display: inline-block;
-    text-align: center;
+    width: 20em;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
     font-family: 'Chunk Rethunk';
     background-color: #95E5F5;
+    margin: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
 }
 
 .particulier_button:hover, .pro_button:hover{
@@ -38,12 +36,14 @@ main{
 
 
 .carousel-item-active{
+    margin-top: 1.5em;
     width: 240px;
     height: 160px;
 }
 
 .carousel{
     position: absolute;
+    margin-top: 1.5em;
     width: 30em;
     height: 320px;
 }
@@ -70,6 +70,19 @@ main .container-fluid{
     border-left: 23em dotted;
     border-right: 23em dotted;
 }
+
 main #myCarousel{
     z-index: 0;
+}
+
+.div_map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map{
+    margin: auto;
+    margin-bottom: 2em;
+    border-radius: 10px;
 }
