@@ -47,15 +47,22 @@ nav{
     text-decoration: none;
     color: white;
 }
-.container-fluid a{
+header .container-fluid a{
     padding: 2em 0;
     background-color: #95E5F5;
     color: white;
+    
  
 }
-.container-fluid a:hover{
+header .container-fluid{
+    z-index: 2;
+}
+    
+header .container-fluid a:hover{
     background-color: #A6BDF5;
 }
+
+
 .navbar-light .navbar-nav .nav-link.active {
     color: rgba(255, 255, 255, 0.9);
 }
@@ -65,18 +72,24 @@ nav{
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 0.9);
 }
-.container-fluid,.container-fluid a,.container-fluid li,.container-fluid ul,.container-fluid div{
+header .container-fluid,header .container-fluid a,header .container-fluid li,header .container-fluid ul,header .container-fluid div{
     height: 100%;
 }
-.container-fluid ul,.container-fluid li,.container-fluid a{
+header .container-fluid ul,header .container-fluid li,header .container-fluid a{
     width:100%;
  
 }
 
-
+.navbar-collapse.collapse.show a:hover{
+    background-color: #A6BDF5;
+}
 .navbar-collapse.collapse.show a{
     padding: 0.5em 0;
+    background-color: #8EF5CF;
+    
+    
 }
+
 nav.navbar{
     padding: 0;
 }

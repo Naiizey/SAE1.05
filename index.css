@@ -65,8 +65,11 @@ main{
 	visibility: visible;
 }
 
-.container-fluid{
+main .container-fluid{
     margin: auto;
     border-left: 23em dotted;
     border-right: 23em dotted;
+}
+main #myCarousel{
+    z-index: 0;
 }

@@ -2,7 +2,7 @@
     position:relative
 }
 
-.container-fluid{
+main .container-fluid{
     width:100%;
     padding-right:15px;
     padding-left:15px;
@@ -87,7 +87,7 @@
     display:inline-block;
     width:20px;
     height:20px;
-    background:transparent no-repeat center center;
+    background:no-repeat center center;
     background-size:100% 100%
 }
 
@@ -102,4 +102,6 @@
     border:0
 }
 
-
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
