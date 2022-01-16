@@ -27,30 +27,27 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                            <a class="nav-link active" aria-current="page" href="index.html" style="background-color: #A6BDF5">Accueil</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" href="Page-Professionnel.html">Professionels</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Particuliers</a>
+                            <a class="nav-link" href="Page-Particulier.html">Particuliers</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Nos Valeurs</a>
+                            <a class="nav-link" href="Page-Entreprise.html">Nos Valeurs</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Nous Trouver</a>
+                            <a class="nav-link" href="Page-Emplacement.html">Nous Trouver</a>
                           </li>
-                        
                         </ul>
                     </div>
-               
-            
                 </div>
 			</nav>
 		</header>
 		<main>
-			<div class="container-fluid">
+			<div class="container-fluid lecarousel">
 				<div id="myCarousel" class="carousel slide border" data-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
@@ -73,15 +70,17 @@
 						</figure>
 					</div>
 					<div class="carousel-item">
-						<figure>
-							<img class="d-block w-100" src="PHOTOS/Bac_glace2.jpg" alt="Bac glace">
-							<div class="carousel-caption d-none d-sm-block">
-								<h5>Bac glace</h5>
-								<small>
-								Bac glace pro
-								</small>
-							</div>
-						</figure>
+						<a href="Page-Produit.html">
+							<figure>
+								<img class="d-block w-100" src="PHOTOS/Bac_glace2.jpg" alt="Bac glace">
+								<div class="carousel-caption d-none d-sm-block">
+									<h5>Bac glace</h5>
+									<small>
+									Bac glace pro
+									</small>
+								</div>
+							</figure>
+						</a>
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -98,27 +97,46 @@
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 			<div class="buttons">			
-				<a href="particulier.html" class="particulier_button">
-					<div>
-						<p>Particuliers</p>
-					</div>
+				<a href="Page-Particulier.html" class="particulier_button">
+					<p>Gamme Particuliers</p>
 				</a>
-				<a href="pro.hmtl" class="pro_button">
-					<div>
-						<p>Professionnels</p>
-					</div>
+				<a href="Page-Professionnel.html" class="pro_button">
+					<p>Gamme Professionnels</p>
 				</a>
+			</div>
+			<div class="div_map">
+				<iframe
+					class="map"
+					width="450"
+					height="250"
+					frameborder="0" style="border:0"
+					src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBLsSPYm4OmJ6HTZAwNWhyb2OpCRpDD9Ys&q=hypermarket+france+finistere,cotes d'armor, morbihan" allowfullscreen>
+				</iframe>
+				<iframe
+					class="map"
+					width="450"
+					height="250"
+					frameborder="0" style="border:0"
+					src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBLsSPYm4OmJ6HTZAwNWhyb2OpCRpDD9Ys&q=hypermarket+france+finistere,cotes d'armor, morbihan" allowfullscreen>
+				</iframe>
 			</div>
 		</main>
 		<footer>
 			<div class="webmaster">
-				<p>Web-master</p>
+				<h5>Web-master :</h5>
+				<ul class="names">
+					<li>Barre Nathan</li>
+					<li>Guillou Florian</li>
+					<li>Lavazais Gabin</li>
+				</ul>
 			</div>
-			<div class="contact2">
-				<p>Contact</p>
+			<div class="contact">
+				<a href="Page-contact.html" class="a_contact">
+				<h5>Contact</h5>
+				</a>
 			</div>
 			<div class="réseaux">
-				<p>Reseaux</p>
+				<h5>Reseaux</h5>
 			</div>
 		</footer>
 	</body>
