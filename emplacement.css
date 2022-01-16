@@ -1,0 +1,32 @@
+.div_map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map{
+    margin: auto;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+
+main{
+    font-family: "Chunk Rethunk";
+    color : #95E5F5;
+}
+
+.text{
+    margin-top: 1.5em;
+    margin-left: 15.5em;
+}
+
+.txt_particulier_pro{
+    display: flex;
+    margin-left: 10.5em;
+    margin-top: 2em;
+    font-size: 1.5em;
+}
+
+.text_pro{
+    margin-left: 25.5em;
+}
