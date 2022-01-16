@@ -17,16 +17,30 @@ main{
 
 .text{
     margin-top: 1.5em;
-    margin-left: 15.5em;
+    margin-left: 9.5em;
 }
 
-.txt_particulier_pro{
-    display: flex;
-    margin-left: 10.5em;
-    margin-top: 2em;
+.localisation{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt_map_pro, .txt_map_part{
+    margin-left: 8.5em;
+    margin-top: 1.5em;
     font-size: 1.5em;
 }
 
-.text_pro{
-    margin-left: 25.5em;
+@media screen and (max-width:1280px){
+    .txt_map_pro, .txt_map_part{
+        margin-left: 4.5em
+    }
+}
+
+@media screen and (max-width:1150px){
+    .txt_map_pro, .txt_map_part{
+        margin-left: 2.5em
+    }
 }
