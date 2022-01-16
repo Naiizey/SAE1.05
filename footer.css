@@ -1,7 +1,6 @@
 footer{
     color: white;
     background-color: #95E5F5;
-    display: flex;
     align-items: center;
     bottom: 0;
     font-family: 'Chunk Rethunk';
@@ -35,4 +34,16 @@ footer{
     list-style: none;
     padding-top: .5em;
     padding-bottom: .5em;
+}
+
+@media screen and (max-width: 900px){
+    .contact, .webmaster, .réseaux{
+        display: flex;
+        width: 100%;
+    }
+
+    .contact, .webmaster{
+        border-right: none;
+        border-bottom: .25em solid white;
+    }
 }
